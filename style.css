@@ -6,11 +6,12 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 h2 {
   border-bottom: 3px solid red;
   font-family: "Josefin Sans", sans-serif;
-  padding: 0px 100px;
+  padding: 0px 30px;
 }
 /*? 1.Navigation and first section section*/
 .container {
@@ -29,7 +30,7 @@ nav {
   width: 100%;
 }
 nav img {
-  width: 25vh;
+  width: 22vh;
 }
 nav ul {
   display: flex;
@@ -51,30 +52,32 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 13px;
-  padding: 0px 150px;
+  gap: 8px;
+  padding: 0px 248px;
 }
 .first-section h1 {
-  color: white;
-  font-size: 14vh;
+  font-size: 10.5vh;
   font-family: "Josefin Sans", sans-serif;
 }
-.first-section p {
-  color: white;
-}
-.first-section button {
+
+button {
   padding: 15px;
   font-size: 3vh;
   border-radius: 20px;
   font-weight: bolder;
-  border: 0px;
+  border: 0.5px solid black;
   transition: 0.3s ease-in-out;
+  background: transparent;
 }
-.first-section button:hover {
-  background-color: green;
-  color: white;
+button a {
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 151, 7);
   transition: 0.3s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 /*? Courses We offer*/
 .courses-we-offer {
@@ -92,15 +95,19 @@ nav ul a:hover {
 .courses {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 250px;
-  padding: 10px;
+  padding: 20px;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
   transition: 0.3s ease-in-out;
   text-align: center;
 }
+.courses h3 {
+  font-size: 5vh;
+}
 .courses p {
-  font-size: 2.5vh;
+  font-size: 3vh;
 }
 .courses:hover {
   transform: scale(1.03);
@@ -112,14 +119,132 @@ nav ul a:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  gap: 10px;
+  gap: 20px;
 }
 .global-campus {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
-
 .our-global-campus-content img {
   width: 240px;
   height: 240px;
+  transition: 0.3s ease-in-out;
+}
+.our-global-campus-content img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+/*? 4.Our Facilities*/
+.our-facilities {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 100px;
+}
+.facilities {
+  display: flex;
+  gap: 20px;
+}
+.facilities-content {
+  box-shadow: rgba(68, 68, 75, 0.25) 0px 30px 60px -12px inset,
+    rgba(177, 171, 171, 0.3) 0px 18px 36px -18px inset;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.facilities-content:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.facilities-content img {
+  width: 230px;
+}
+/*? 5.testimonial*/
+.our-testimonial {
+  text-align: center;
+  align-items: center;
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.testimonial {
+  display: flex;
+  gap: 60px;
+}
+.testimonial-content {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  gap: 5px;
+}
+.testimonial-content-upper {
+  display: flex;
+  gap: 20px;
+}
+.testimonial-content-upper img {
+  width: 80px;
+  border-radius: 50%;
+}
+.rating i {
+  color: rgb(228, 194, 5);
+}
+/*? 6.Enrollment*/
+.enrollment {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+}
+.enrollment img {
+  width: 800px;
+  filter: brightness(50%);
+}
+.enrollment-content {
+  position: absolute;
+  display: flex;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.enrollment-content h3 {
+  font-size: 8vh;
+  color: white;
+}
+/*? 8.Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+  margin-top: 30px;
+}
+footer p {
+  font-size: 2.5vh;
+}
+.fa-facebook,
+.fa-linkedin {
+  color: rgb(5, 86, 249);
+}
+.fa-twitter {
+  color: rgb(7, 171, 183);
+}
+.fa-youtube {
+  color: red;
 }
