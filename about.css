@@ -1,0 +1,40 @@
+/*? Navigation Section*/
+.container-img {
+  height: 300px;
+  object-fit: cover;
+
+  filter: brightness(30%);
+}
+
+.container .first-section {
+  padding: 0px 420px;
+}
+
+.first-section h1 {
+  color: white;
+  font: 4vh;
+  font-weight: lighter;
+}
+/*? 2.About us*/
+.about-us {
+  display: flex;
+  gap: 50px;
+  padding: 20px 100px;
+  margin-top: 40px;
+}
+.about-us img {
+  width: 400px;
+}
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+.about-us-content h3 {
+  font-size: 8vh;
+}
+.about-us-content p {
+  font-size: 3vh;
+}

@@ -1,0 +1,58 @@
+.container .first-section {
+  padding: 0px 135px;
+}
+.first-section h1 {
+  font-size: 8vh;
+}
+.blog {
+  display: flex;
+  gap: 50px;
+  padding: 20px 100px;
+  margin-top: 50px;
+}
+.blog-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+}
+.blog-left h3 {
+  font-size: 5vh;
+}
+.blog-left p {
+  font-size: 2.5vh;
+}
+.blog-left img {
+  width: 500px;
+}
+.blog-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blog-left form input {
+  padding: 5px 120px;
+}
+
+/*! Blog right*/
+.blog-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.blog-right h3 {
+  background-color: orange;
+  padding: 5px 30px;
+  text-align: center;
+}
+.blog-right-content {
+  display: flex;
+  align-items: stretch;
+
+  justify-content: space-between;
+  background-color: rgb(207, 200, 200);
+}
+.blog-right-content p {
+  padding: 5px 30px;
+}
