@@ -13,7 +13,7 @@
 .blog-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   gap: 20px;
   width: 60%;
 }
@@ -26,13 +26,44 @@
 .blog-left img {
   width: 500px;
 }
+form {
+  width: 360px;
+}
 .blog-left form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 .blog-left form input {
-  padding: 5px 120px;
+  padding: 5px;
+}
+
+.blog-left form input::placeholder {
+  font-size: 3vh;
+}
+.blog-left form textarea {
+  padding: 5px;
+}
+.blog-submit {
+  border: none;
+  padding: 5px 10px;
+  font-size: 3vh;
+  border-radius: 5px;
+  background-color: orange;
+  transition: 0.3s ease-in-out;
+}
+.blog-submit:hover {
+  cursor: pointer;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(15, 180, 42, 1) 35%,
+    rgba(6, 201, 241, 1) 100%
+  );
+
+  color: white;
+  transition: 0.3s ease-in-out;
 }
 
 /*! Blog right*/
@@ -55,4 +86,5 @@
 }
 .blog-right-content p {
   padding: 5px 30px;
+  font-size: 3.1vh;
 }
