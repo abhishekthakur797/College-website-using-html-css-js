@@ -267,9 +267,6 @@ footer p {
 /*!----------------------------------------------------------------------------*/
 /*?Media Query*/
 @media screen and (max-width: 450px) {
-  .container-img {
-    width: 400px;
-  }
   nav {
     padding: 10px;
     height: 100px;
