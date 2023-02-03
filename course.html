@@ -11,24 +11,26 @@
     />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="course.css" />
     <title>Course | IHD</title>
   </head>
   <body>
     <!--? 1.Navigation Bar and first section copied from about.html-->
-    <div class="container">
-      <img class="container-img" src="/img/background.jpg" alt="" />
+    <div class="container-course">
       <!--! 1.1 Navigation Section-->
       <nav>
-        <img src="/img/logo.png" alt="" />
-        <ul>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="course.html">Course</a>
-          <a href="blog.html">Blog</a>
-          <a href="contact.html">Contact</a>
-        </ul>
+        <a href="index.html"> <img src="/img/logo.png" alt="" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
       <!--! 1.2 First Section-->
       <div class="first-section">
@@ -120,4 +122,5 @@
     src="https://kit.fontawesome.com/afcdfd8069.js"
     crossorigin="anonymous"
   ></script>
+  <script src="script.js"></script>
 </html>

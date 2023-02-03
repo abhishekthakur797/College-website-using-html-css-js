@@ -1,6 +1,9 @@
-.container .first-section {
-  padding: 0px 425px;
-}
-.first-section h1 {
-  font-size: 8vh;
+.container-course {
+  display: flex;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("img/background.jpg");
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
 }

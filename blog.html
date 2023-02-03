@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About us | IHD</title>
     <link rel="shortcut icon" href="img/college-icon-png-6.jpg" type="image/x-icon">
-
-    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="blog.css" />
   </head>
   <body>
     <!--? 1.Navigation Bar and first section-->
-    <div class="container">
-      <img class="container-img" src="/img/background.jpg" alt="" />
+    <div class="container-blog">
       <!--! 1.1 Navigation Section-->
       <nav>
-        <img src="/img/logo.png" alt="" />
-        <ul>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="course.html">Course</a>
-          <a href="blog.html">Blog</a>
-          <a href="contact.html">Contact</a>
-        </ul>
+        <a href="index.html"> <img src="/img/logo.png" alt="" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
       <!--! 1.2 First Section-->
       <div class="first-section">
@@ -68,15 +69,15 @@
               type="text"
               name="name"
               id="name"
-              placeholder="Enter Your Name" size="50"
-              autofocus
+              placeholder="Enter Your Name" size="30"
+            
           /></label>
           <label for="email"
             ><input
               type="email"
               name="email"
               id="email"
-              placeholder="Enter Your Email" size="50"
+              placeholder="Enter Your Email" size="30"
           /></label>
           <label for=""></label>
             <textarea
@@ -136,4 +137,5 @@
     src="https://kit.fontawesome.com/afcdfd8069.js"
     crossorigin="anonymous"
   ></script>
+  <script src="script.js"></script>
 </html>

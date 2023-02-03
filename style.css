@@ -342,10 +342,20 @@ footer p {
   }
   /*? 5.Testimonial*/
   .our-testimonial {
-    padding: 15px;
+    padding: 25px;
   }
   .testimonial {
     flex-direction: column;
+  }
+  .testimonial-content {
+    padding: 5px 10px;
+  }
+  .testimonial-content-upper {
+    gap: 6px;
+  }
+  .testimonial-content-upper img {
+    width: 60px;
+    height: 60px;
   }
   /*? 6.Enrollment*/
   .enrollment {

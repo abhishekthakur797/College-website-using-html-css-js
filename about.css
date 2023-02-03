@@ -1,9 +1,12 @@
 /*? Navigation Section*/
-.container-img {
-  height: 300px;
-  object-fit: cover;
-
-  filter: brightness(30%);
+.container-about {
+  display: flex;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("img/background.jpg");
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
 }
 
 .container .first-section {
@@ -37,4 +40,30 @@
 }
 .about-us-content p {
   font-size: 3vh;
+}
+.about-us-content button a {
+  color: black;
+}
+/*!-------------------------------------------------------------------------*/
+/*!-------------------------------------------------------------------------*/
+/*? Media Query*/
+@media (max-width: 450px) {
+  .about-us {
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+  }
+  .about-us {
+    padding: 20px;
+  }
+  .about-us-content h3 {
+    font-size: 3.5vh;
+  }
+  .about-us-content p {
+    font-size: 2vh;
+  }
+  .about-us img {
+    width: 250px;
+  }
 }
