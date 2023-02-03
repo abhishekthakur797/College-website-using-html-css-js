@@ -284,6 +284,7 @@ footer p {
     text-align: left;
     z-index: 2;
     transition: 1s;
+    display: none;
   }
   nav ul {
     padding: 0px 0px 0px 10px;
@@ -321,6 +322,13 @@ footer p {
   /*? 2.Course we offer*/
   .courses-we-offer-content {
     flex-direction: column;
+    padding: 10px;
+  }
+  .courses-we-offer-content h3 {
+    font-size: 3.5vh;
+  }
+  .courses-we-offer-content p {
+    font-size: 2vh;
   }
   /*? 3.our global campus*/
 
@@ -328,6 +336,7 @@ footer p {
     flex-direction: column;
   }
   /*? 4.our facilities*/
+
   .facilities {
     flex-direction: column;
   }
