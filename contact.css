@@ -14,6 +14,11 @@
   gap: 120px;
   justify-content: center;
 }
+/*? Map*/
+.map {
+  padding: 10px 100px;
+  align-items: center;
+}
 
 /*? contact */
 .contact {
@@ -84,5 +89,12 @@
   }
   .contact-form {
     align-content: center;
+  }
+  .map {
+    padding: 20px 10px;
+    align-items: center;
+  }
+  .map iframe {
+    width: 350px;
   }
 }
