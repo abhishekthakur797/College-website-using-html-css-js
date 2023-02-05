@@ -7,17 +7,20 @@
   height: 60vh;
   width: 100%;
   background-size: cover;
+} /*? Map*/
+.map {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
 }
+
 .contact-container {
   display: flex;
   margin-top: 50px;
   gap: 120px;
   justify-content: center;
-}
-/*? Map*/
-.map {
-  padding: 10px 100px;
-  align-items: center;
 }
 
 /*? contact */
@@ -43,41 +46,29 @@
 }
 
 /*? contact form page*/
-.contact-form {
+.contact-form form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  width: 100%;
 }
 
-.contact-form input {
-  padding: 5px;
-}
-
+.contact-form input,
 .contact-form textarea {
-  padding: 5px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.contact-form button {
+  color: black;
+  background-color: white;
+
+  display: flex;
+  align-self: start;
 }
 
-.contact-submit {
-  border: none;
-  padding: 5px 10px;
-  font-size: 3vh;
-  border-radius: 5px;
-  background-color: orange;
-  transition: 0.3s ease-in-out;
-}
-
-.contact-submit:hover {
-  cursor: pointer;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgb(246, 185, 0) 0%,
-    rgb(255, 238, 6) 35%,
-    rgb(42, 248, 10) 100%
-  );
-
-  transition: 0.3s ease-in-out;
-}
 /*!------------------------------------------------------------------------------------*/
 /*!------------------------------------------------------------------------------------*/
 /*? Media Query*/

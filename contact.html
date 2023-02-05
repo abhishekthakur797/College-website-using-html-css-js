@@ -75,41 +75,43 @@
         </div>
       </div>
       <!--? contact form page-->
-      <form action="" class="contact-form">
-        <label for="name"
-          ><input
+      <div class="contact-form">
+        <form
+          action=""
+          method="po
+        "
+        >
+          <input
             type="text"
-            name=""
+            name="name"
             id=""
             placeholder="Enter Your Name"
-            size="40"
-        /></label>
-        <label for="email"
-          ><input
-            type="email"
-            name=""
-            id=""
-            placeholder="Enter Your Email"
-            size="40"
-        /></label>
-        <label for="name"
-          ><input
+            required
+          />
+          <input
             type="text"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Enter Your Subject"
+            required
+          />
+          <textarea
             name=""
             id=""
-            placeholder="Enter Your Subject"
-            size="40" /></label
-        ><textarea
-          name="comment"
-          id="commnent"
-          rows="3"
-          cols=""
-          placeholder="Enter Your Message"
-        ></textarea>
-        <label for="submit"
-          ><input class="contact-submit" type="submit" value="submit"
-        /></label>
-      </form>
+            rows="5"
+            cols="50"
+            placeholder="message"
+            name="message"
+            required
+          ></textarea>
+          <button type="submit" class="">Send Message</button>
+        </form>
+      </div>
     </div>
 
     <!--? 7. Footer same as in index.html-->
