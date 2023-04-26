@@ -120,14 +120,26 @@ form {
     font-size: 2.5vh;
   }
   .blog-left img {
-    width: 250px;
+    width: 300px;
   }
   .blog-left {
     align-items: flex-start;
+    align-items: center;
+    width: auto;
+    padding: 70px;
+  }
+  .blog-left p {
+    align-items: center;
+    font-size: 2vh;
+    text-align: start;
+  }
+  .blog-left h3 {
+    font-size: 4vh;
   }
   .blog-left form {
-    width: 300px;
+    width: auto;
     color: red;
+    align-self: flex-start;
   }
   .blog-left form {
     align-items: flex-start;
