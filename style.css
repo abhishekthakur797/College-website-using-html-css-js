@@ -105,11 +105,12 @@ button:hover {
 .courses-we-offer-content {
   display: flex;
   gap: 30px;
+  padding: 0px 100px;
 }
 .courses {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 250px;
-  padding: 20px;
+  width: auto;
+  padding: 20px 30px;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -195,14 +196,13 @@ button:hover {
 }
 .facilities {
   display: flex;
+
   gap: 20px;
 }
 .facilities-content {
   box-shadow: rgba(68, 68, 75, 0.25) 0px 30px 60px -12px inset,
     rgba(177, 171, 171, 0.3) 0px 18px 36px -18px inset;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 10px;
   border-radius: 20px;
   transition: 0.3s ease-in-out;
@@ -228,6 +228,7 @@ button:hover {
 .testimonial {
   display: flex;
   gap: 60px;
+  padding: 0px 100px;
 }
 .testimonial-content {
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
@@ -237,6 +238,7 @@ button:hover {
   flex-direction: column;
   padding: 15px 10px;
   gap: 5px;
+  padding: 50px 20px 20px;
 }
 .testimonial-content-upper {
   display: flex;
@@ -258,7 +260,7 @@ button:hover {
   margin-top: 50px;
 }
 .enrollment img {
-  width: 800px;
+  width: 1000px;
   filter: brightness(50%);
 }
 .enrollment-content {
