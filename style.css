@@ -359,7 +359,7 @@ footer p {
   /*? 2.Course we offer*/
   .courses-we-offer-content {
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
   }
   .courses-we-offer-content h3 {
     font-size: 3.5vh;
@@ -383,12 +383,17 @@ footer p {
   }
   .testimonial {
     flex-direction: column;
+    width: 500px;
   }
   .testimonial-content {
     padding: 5px 10px;
   }
   .testimonial-content-upper {
-    gap: 6px;
+    gap: 16px;
+    align-items: center;
+  }
+  .testimonial-content-upper p {
+    text-align: start;
   }
   .testimonial-content-upper img {
     width: 60px;
