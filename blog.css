@@ -33,20 +33,20 @@
 .blog-left img {
   width: 500px;
 }
-form {
-  width: 360px;
-}
+
 .blog-left form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: auto;
+  padding-right: 300px;
 }
 .blog-left form input {
   padding: 5px;
 }
 
 .blog-left form input::placeholder {
-  font-size: 3vh;
+  font-size: 2vh;
 }
 .blog-left form textarea {
   padding: 5px;
